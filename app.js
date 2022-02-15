@@ -23,7 +23,7 @@ addProductBtn.addEventListener("click", function () {
     itemQuantity.value == ""
   ) {
     console.log("sorry");
-    return;
+    return ;
   }
 
   {
