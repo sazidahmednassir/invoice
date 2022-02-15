@@ -58,3 +58,8 @@ addProductBtn.addEventListener("click", function () {
   infoTable.appendChild(tr);
   totalCalculation();
 });
+
+
+function element(param) {
+  return document.createElement(param);
+}
